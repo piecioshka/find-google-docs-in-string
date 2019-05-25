@@ -8,7 +8,9 @@ module.exports = {
 
         const result = [];
         const docs = text.match(GOOGLE_DOCS_REGEXP);
-        result.push(...docs);
+        if (docs) {
+            result.push(...docs);
+        }
         return result;
     }
 };
