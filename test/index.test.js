@@ -19,6 +19,17 @@ it('should inform that non-string is passed', () => {
     }).toThrowError();
 });
 
+it('should return empty collection when string not contain matched url', () => {
+    const input = find(
+        `
+        Wlazł kotek na płotek
+        `
+    );
+    const output = [];
+
+    expect(input).toEqual(output);
+});
+
 it('should find one link', () => {
     const input = find(
         `
