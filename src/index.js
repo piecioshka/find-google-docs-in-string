@@ -5,8 +5,7 @@ module.exports = {
         if (typeof text !== 'string') {
             throw new Error('text is not a string (passed argument)');
         }
-      
-        const result = text.match(GOOGLE_DOCS_REGEXP) || [];
-        return result;
+        
+        return text.match(GOOGLE_DOCS_REGEXP) || [];
     }
 };
