@@ -2,7 +2,6 @@
 
 [![npm version](https://badge.fury.io/js/find-google-docs-in-string.svg)](https://badge.fury.io/js/find-google-docs-in-string)
 [![downloads count](https://img.shields.io/npm/dt/find-google-docs-in-string.svg)](https://www.npmjs.com/~piecioshka)
-[![dependencies](https://david-dm.org/piecioshka/find-google-docs-in-string.svg)](https://github.com/piecioshka/find-google-docs-in-string)
 [![travis](https://img.shields.io/travis/piecioshka/find-google-docs-in-string.svg)](https://travis-ci.org/piecioshka/find-google-docs-in-string)
 [![coveralls](https://coveralls.io/repos/github/piecioshka/find-google-docs-in-string/badge.svg?branch=master)](https://coveralls.io/github/piecioshka/find-google-docs-in-string?branch=master)
 [![snyk](https://snyk.io/test/github/piecioshka/find-google-docs-in-string/badge.svg?targetFile=package.json)](https://snyk.io/test/github/piecioshka/find-google-docs-in-string?targetFile=package.json)
