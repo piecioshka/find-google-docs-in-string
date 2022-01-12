@@ -4,7 +4,6 @@
 [![downloads count](https://img.shields.io/npm/dt/find-google-docs-in-string.svg)](https://www.npmjs.com/~piecioshka)
 [![travis-ci](https://api.travis-ci.com/piecioshka/find-google-docs-in-string.svg?branch=master)](https://app.travis-ci.com/github/piecioshka/find-google-docs-in-string)
 [![coveralls](https://coveralls.io/repos/github/piecioshka/find-google-docs-in-string/badge.svg?branch=master)](https://coveralls.io/github/piecioshka/find-google-docs-in-string?branch=master)
-[![snyk](https://snyk.io/test/github/piecioshka/find-google-docs-in-string/badge.svg?targetFile=package.json)](https://snyk.io/test/github/piecioshka/find-google-docs-in-string?targetFile=package.json)
 
 :hammer: Find links from **Google Docs** in string or file
 
