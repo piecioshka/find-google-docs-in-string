@@ -32,6 +32,9 @@
         "text",
         "plain"
     ],
+    "engines": {
+        "node": ">=12.0.0"
+    },
     "bin": {
         "find-google-docs": "./bin/cli.js",
         "find-google-docs-in-string": "./bin/cli.js"

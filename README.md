@@ -6,12 +6,6 @@
 
 :hammer: Find links from **Google Docs** in string or file
 
-## Installation
-
-```bash
-npm install -g find-google-docs-in-string
-```
-
 ## Usage
 
 ```javascript
@@ -31,20 +25,16 @@ console.log(links);
 
 ## CLI
 
+Installation
+
+```bash
+npm install -g find-google-docs-in-string
+```
+
+Usage:
+
 ```bash
 find-google-docs-in-string /path/to/text/file
-```
-
-## Unit tests
-
-```bash
-npm test
-```
-
-## Code coverage
-
-```bash
-npm run coverage
 ```
 
 ## Related
