@@ -25,6 +25,7 @@
     },
     "main": "index.js",
     "keywords": [
+        "cli",
         "google",
         "documents",
         "find",
