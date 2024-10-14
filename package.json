@@ -21,7 +21,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "git@github.com:piecioshka/find-google-docs-in-string.git"
+        "url": "git+ssh://git@github.com/piecioshka/find-google-docs-in-string.git"
     },
     "main": "index.js",
     "keywords": [
@@ -36,7 +36,7 @@
         "node": ">=12.0.0"
     },
     "bin": {
-        "find-google-docs": "./bin/cli.js",
-        "find-google-docs-in-string": "./bin/cli.js"
+        "find-google-docs": "bin/cli.js",
+        "find-google-docs-in-string": "bin/cli.js"
     }
 }
