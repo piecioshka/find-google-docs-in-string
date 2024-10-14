@@ -39,7 +39,7 @@ it('should find one link', () => {
         and nothing else!
 
         Any other link should not be match. Especially that
-        http://example.com
+        https://example.com
 
         `
     );
