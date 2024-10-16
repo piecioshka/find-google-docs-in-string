@@ -6,7 +6,7 @@
 [![license](https://img.shields.io/npm/l/find-google-docs-in-string.svg)](https://piecioshka.mit-license.org)
 [![github-ci](https://github.com/piecioshka/find-google-docs-in-string/actions/workflows/testing.yml/badge.svg)](https://github.com/piecioshka/find-google-docs-in-string/actions/workflows/testing.yml)
 
-:hammer: Find links from **Google Docs** in string or file
+🔨 Find links from **Google Docs** in string or file
 
 ## Usage
 
