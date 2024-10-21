@@ -42,8 +42,8 @@
         "text",
         "plain"
     ],
+    "main": "index.js",
     "bin": {
         "find-google-docs-in-string": "bin/cli.js"
-    },
-    "main": "index.js"
+    }
 }
