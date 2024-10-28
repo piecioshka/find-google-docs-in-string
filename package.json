@@ -1,6 +1,6 @@
 {
     "name": "find-google-docs-in-string",
-    "version": "1.0.11",
+    "version": "1.0.12",
     "description": "🔨 Find links from Google Docs in string or file",
     "license": "MIT",
     "author": {
