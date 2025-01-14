@@ -1,5 +1,6 @@
 # find-google-docs-in-string
 
+[![cli-available](https://badgen.net/static/cli/available/?icon=terminal)](https://runkit.com/npm/find-google-docs-in-string)
 [![node version](https://img.shields.io/node/v/find-google-docs-in-string.svg)](https://www.npmjs.com/package/find-google-docs-in-string)
 [![npm version](https://badge.fury.io/js/find-google-docs-in-string.svg)](https://badge.fury.io/js/find-google-docs-in-string)
 [![downloads count](https://img.shields.io/npm/dt/find-google-docs-in-string.svg)](https://www.npmjs.com/package/find-google-docs-in-string)
