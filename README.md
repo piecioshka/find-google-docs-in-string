@@ -12,6 +12,12 @@
 
 ## Usage
 
+Installation
+
+```bash
+npm install find-google-docs-in-string
+```
+
 ```javascript
 const findGoogleDocs = require('find-google-docs-in-string');
 const links = findGoogleDocs(
@@ -34,8 +40,6 @@ Installation
 ```bash
 npm install -g find-google-docs-in-string
 ```
-
-Usage:
 
 ```bash
 find-google-docs-in-string /path/to/text/file
