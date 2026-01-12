@@ -1,7 +1,7 @@
-const find = require('../src').find;
+const find = require('.').find;
 
 it('should be a function', () => {
-    expect(find).toEqual(jasmine.any(Function));
+    expect(find).toEqual(expect.any(Function));
 });
 
 it('should inform that non-string is passed', () => {

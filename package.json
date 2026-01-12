@@ -9,15 +9,14 @@
         "url": "https://piecioshka.pl/"
     },
     "scripts": {
-        "test": "jasmine test/**/*.js",
-        "coverage": "nyc npm run test && nyc report --reporter=html"
+        "test": "jest --verbose",
+        "coverage": "jest --coverage"
     },
     "dependencies": {
         "minimist": "^1.2.8"
     },
     "devDependencies": {
-        "jasmine": "^4.0.2",
-        "nyc": "^15.1.0"
+        "jest": "^29.7.0"
     },
     "repository": {
         "type": "git",

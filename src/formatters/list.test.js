@@ -1,11 +1,11 @@
-const listFormatter = require('../src/formatters/list').format;
+const listFormatter = require('./list').format;
 
 it('should be a function', () => {
-    expect(listFormatter).toEqual(jasmine.any(Function));
+    expect(listFormatter).toEqual(expect.any(Function));
 });
 
 it('should returns a string', () => {
-    expect(listFormatter()).toEqual(jasmine.any(String));
+    expect(listFormatter()).toEqual(expect.any(String));
 });
 
 it('should empty string when call without any params', () => {
