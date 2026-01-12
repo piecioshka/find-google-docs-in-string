@@ -4,20 +4,22 @@ const fs = require('fs');
 const util = require('util');
 const readfile = util.promisify(fs.readFile);
 
-const yargs = require('yargs');
+const minimist = require('minimist');
 const pkg = require('../package.json');
 const finder = require('../src').find;
 const formatter = require('../src/formatters/list').format;
 
-const argv = yargs
-    .usage(`${pkg.description}\n\n  $ $0 /path/to/text/file`)
-    .argv;
+const argv = minimist(process.argv.slice(2));
 
-const filename = String(argv._).trim();
+const filename = argv._[0] ? String(argv._[0]).trim() : '';
+
+function showHelp() {
+    console.log(`${pkg.description}\n\n  $ find-google-docs-in-string /path/to/text/file`);
+}
 
 (async () => {
     if (!filename) {
-        yargs.showHelp();
+        showHelp();
         return;
     }
 
