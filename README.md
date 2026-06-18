@@ -10,6 +10,8 @@
 
 🔨 Find links from **Google Docs** in string or file
 
+![](demo/find-google-docs-in-string.gif)
+
 ## Usage
 
 Installation
