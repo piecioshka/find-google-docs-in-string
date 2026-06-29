@@ -1,4 +1,5 @@
-const find = require('.').find;
+import { describe, it, expect } from 'vitest';
+import { find } from '.';
 
 it('should be a function', () => {
     expect(find).toEqual(expect.any(Function));
@@ -6,16 +7,16 @@ it('should be a function', () => {
 
 it('should inform that non-string is passed', () => {
     expect(() => {
-        find(null)
+        find(null);
     }).toThrowError();
     expect(() => {
-        find(undefined)
+        find(undefined);
     }).toThrowError();
     expect(() => {
-        find([])
+        find([]);
     }).toThrowError();
     expect(() => {
-        find({})
+        find({});
     }).toThrowError();
 });
 
@@ -43,9 +44,7 @@ it('should find one link', () => {
 
         `
     );
-    const output = [
-        'https://docs.google.com/document/d/super-uniq-id/edit'
-    ];
+    const output = ['https://docs.google.com/document/d/super-uniq-id/edit'];
 
     expect(input).toEqual(output);
 });
@@ -106,9 +105,7 @@ it('should find Google Forms links', () => {
 });
 
 it('should find links with http (not https)', () => {
-    const input = find(
-        `Old link: http://docs.google.com/document/d/old-doc/edit`
-    );
+    const input = find(`Old link: http://docs.google.com/document/d/old-doc/edit`);
     const output = ['http://docs.google.com/document/d/old-doc/edit'];
 
     expect(input).toEqual(output);
@@ -123,7 +120,7 @@ it('should find mixed http and https links', () => {
     );
     const output = [
         'https://docs.google.com/document/d/doc1/edit',
-        'http://docs.google.com/document/d/doc2/edit'
+        'http://docs.google.com/document/d/doc2/edit',
     ];
 
     expect(input).toEqual(output);
@@ -144,9 +141,7 @@ it('should return empty array for string with only whitespace', () => {
 });
 
 it('should find links case-insensitively', () => {
-    const input = find(
-        `HTTPS://DOCS.GOOGLE.COM/document/d/uppercase/edit`
-    );
+    const input = find(`HTTPS://DOCS.GOOGLE.COM/document/d/uppercase/edit`);
     const output = ['HTTPS://DOCS.GOOGLE.COM/document/d/uppercase/edit'];
 
     expect(input).toEqual(output);
@@ -190,18 +185,14 @@ it('should find links in markdown format', () => {
 });
 
 it('should handle links with view mode', () => {
-    const input = find(
-        `https://docs.google.com/document/d/view-doc/view`
-    );
+    const input = find(`https://docs.google.com/document/d/view-doc/view`);
     const output = ['https://docs.google.com/document/d/view-doc/view'];
 
     expect(input).toEqual(output);
 });
 
 it('should handle links with preview mode', () => {
-    const input = find(
-        `https://docs.google.com/document/d/preview-doc/preview`
-    );
+    const input = find(`https://docs.google.com/document/d/preview-doc/preview`);
     const output = ['https://docs.google.com/document/d/preview-doc/preview'];
 
     expect(input).toEqual(output);
@@ -234,7 +225,7 @@ it('should find multiple different Google product links', () => {
         'https://docs.google.com/document/d/doc1/edit',
         'https://docs.google.com/spreadsheets/d/sheet1/edit',
         'https://docs.google.com/presentation/d/slide1/edit',
-        'https://docs.google.com/forms/d/form1/viewform'
+        'https://docs.google.com/forms/d/form1/viewform',
     ];
 
     expect(input).toEqual(output);

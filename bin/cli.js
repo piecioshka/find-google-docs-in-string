@@ -6,8 +6,8 @@ const readfile = util.promisify(fs.readFile);
 
 const minimist = require('minimist');
 const pkg = require('../package.json');
-const finder = require('../src').find;
-const formatter = require('../src/formatters/list').format;
+const finder = require('../dist/index').find;
+const formatter = require('../dist/formatters/list').format;
 
 const argv = minimist(process.argv.slice(2));
 
