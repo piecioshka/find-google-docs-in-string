@@ -21,8 +21,8 @@ npm install find-google-docs-in-string
 ```
 
 ```javascript
-const findGoogleDocs = require('find-google-docs-in-string');
-const links = findGoogleDocs(
+const { find } = require('find-google-docs-in-string');
+const links = find(
     `
     <https://docs.google.com/document/d/super-uniq-id/edit>
     https://docs.google.com/document/d/super-uniq-id-2/edit
