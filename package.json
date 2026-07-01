@@ -1,6 +1,6 @@
 {
     "name": "find-google-docs-in-string",
-    "version": "1.1.0",
+    "version": "1.2.0",
     "description": "🔨 Find links from Google Docs in string or file",
     "license": "MIT",
     "author": {
@@ -13,7 +13,8 @@
         "prebuild": "rm -rf dist/ types/",
         "build": "tsc",
         "test": "vitest run",
-        "coverage": "vitest run --coverage"
+        "coverage": "vitest run --coverage",
+        "prepublishOnly": "npm run build"
     },
     "dependencies": {
         "minimist": "^1.2.8"
