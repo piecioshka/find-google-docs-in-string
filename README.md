@@ -7,6 +7,7 @@
 [![size](https://packagephobia.com/badge?p=find-google-docs-in-string)](https://packagephobia.com/result?p=find-google-docs-in-string)
 [![license](https://img.shields.io/npm/l/find-google-docs-in-string.svg)](https://piecioshka.mit-license.org)
 [![github-ci](https://github.com/piecioshka/find-google-docs-in-string/actions/workflows/testing.yml/badge.svg)](https://github.com/piecioshka/find-google-docs-in-string/actions/workflows/testing.yml)
+[![typescript](https://img.shields.io/badge/built%20with-TypeScript-3178c6.svg)](https://www.typescriptlang.org/)
 
 🔨 Find links from **Google Docs** in string or file
 
