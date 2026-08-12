@@ -1,7 +1,6 @@
 # find-google-docs-in-string
 
-![typescript](https://img.shields.io/badge/built%20with-TypeScript-3178c6.svg)
-
+[![TypeScript](https://img.shields.io/badge/built%20with-TypeScript-3178c6.svg)](https://www.typescriptlang.org/)
 [![cli-available](https://badgen.net/static/cli/available/?icon=terminal)](#cli)
 [![node version](https://img.shields.io/node/v/find-google-docs-in-string.svg)](https://www.npmjs.com/package/find-google-docs-in-string)
 [![npm version](https://badge.fury.io/js/find-google-docs-in-string.svg)](https://badge.fury.io/js/find-google-docs-in-string)
