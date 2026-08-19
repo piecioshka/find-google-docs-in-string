@@ -30,7 +30,7 @@
         "url": "git+ssh://git@github.com/piecioshka/find-google-docs-in-string.git"
     },
     "engines": {
-        "node": ">=16.0.0"
+        "node": ">=20"
     },
     "files": [
         "bin",
